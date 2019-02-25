@@ -15,4 +15,4 @@ RUN apt-get update && apt-get --no-install-recommends install -y \
 
 RUN npm i -G mdgen draw.io-export
 
-ENTRYPOINT [ "/bin/bash", "-l", "-c" ]
+ENTRYPOINT [ "/bin/bash", "-c" ]
